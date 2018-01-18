@@ -1,0 +1,15 @@
+---
+name: sample-app-login
+cro: 1
+id: sample-app-login
+env:  []
+links:  []
+entrypoint: service.p6
+endpoints: 
+  - 
+    port-env: SAMPLE_APP_LOGIN_PORT
+    name: HTTP
+    protocol: http
+    host-env: SAMPLE_APP_LOGIN_HOST
+    id: http
+...
